@@ -1,0 +1,159 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+   
+}
+.input, select{
+    
+    text-align: center;
+}
+
+.row{
+    padding: .5em 0;
+}
+
+.happyface{
+    float: left;
+    width: 30%;
+    margin: 10px 10px;
+}
+
+.identidad{
+    margin: 10px 10px;
+}
+
+.title{
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.container{
+    width: 20%;
+    margin-top: 2%;
+    text-align: center;
+}
+.container > label{
+    font-size: 20px;
+    color: #485357;
+}
+
+.header{
+    border: 2px green;
+    align-items: center;
+    border-radius: .5vmax;
+    background-color: #18a1b7;    
+    width: 300px;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    display:flex;
+    
+}
+
+.head-img{
+    width: 20%;
+}
+
+.head-text{
+    width: 70%;
+}
+
+.input-group-text{
+    background-color: rgb(250, 250, 250);
+    border-color: rgb(223, 213, 213);
+    border-radius: 0;
+    color: rgb(11, 129, 129);
+  
+}
+
+
+
+.grupo{
+    display: flex;
+    background: #f1f3f4;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 60px;
+    margin: auto auto;
+}
+
+.formulario{
+    max-width: 280px;
+    margin: auto -20px;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.item{
+    margin: 15px 1px;
+    max-width:20px;
+    min-width:20px;
+}
+.item2{
+    margin: 15px auto;
+    max-width:150px;
+    min-width:40px;
+}
+.item3{
+    margin: 15px auto;
+    max-width:150px;
+    min-width:20px;
+}
+.item4{
+    margin: auto auto;
+    max-width:20px;
+    min-width:20px;
+}
+
+.firts-title{
+
+    font-size: 1.7em;
+    margin: auto auto;
+    color: black;
+    text-align: center;
+}
+
+.descrip{
+    margin: auto 13px;
+    color:  #62a4db;
+}
+
+#email2{
+    background: #0c77e7;
+    border-radius: 6px;
+    width:20px;
+    color: #ffffff;
+    min-width:230px;
+}
+
+#prt2{
+background:#d23947;
+    border-radius: 6px;
+    color: #ffffff;
+    max-width: 40px;
+}
+#gusto2{
+background: #30a347;
+color: #ffffff;
+    border-radius: 6px;
+max-width: inherit;
+}
+
+#telefono2{
+background: #229cb4;
+color: #ffffff;
+    border-radius: 6px;
+max-width: inherit;
+}

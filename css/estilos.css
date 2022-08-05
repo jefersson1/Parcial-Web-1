@@ -1,0 +1,198 @@
+body{
+    background-color: #e8ecef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.container > label{
+    font-size: 20px;
+    color: #485357;
+}
+
+.formulario{
+    max-width: 280px;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    text-align: initial;
+}
+
+.firts-title{
+
+    font-size: 1.7em;
+    margin: auto auto;
+    color: black;
+    text-align: center;
+}
+
+.login-input{
+    display: flex;
+    border-radius: 5px;
+    margin: 20px auto;
+    min-width: 100%;
+    border: 1px solid #878f96;
+    max-width: fit-content;
+    padding: 10px 0px 10px 0px;
+}
+
+.login-input > input{
+    font-size: 15px;
+    border-style: none;
+}
+
+.login-input > input:focus{
+    outline: none;
+}
+
+.lf{
+    text-align: center;
+}
+
+
+.Enviar-Cancelar{
+    text-align: initial;
+}
+
+
+.Gustos{
+    border-radius: 5px;
+    border:  1px solid #878f96;
+    display: flex;
+    min-height:70px;
+    padding: 5px 0px 5px 0px;
+}
+
+.Gustos-div{
+    display: flex;
+    border: none
+}
+
+.Gustos-div > input{
+    border: 1px solid #878f96;
+    border-right: 0px;
+    padding: 10px 0px 10px 0px;
+    max-width: fit-content;
+    min-width: 80%;
+}
+
+.bandera{
+    background-color: #27a844;
+    border-radius: 2px;
+    margin: 3px 10px;
+    max-width: fit-content;
+    min-width: 15%;
+    height-max: fit-content;
+    padding: 10px;
+    display: flex;
+    align-items: justify;
+}
+
+.imgb{
+    max-width: 35px;
+    margin: auto auto;
+    display:flex;
+    position: center;
+}
+.tabla{
+
+    min-width: 180px;
+    max-width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    word-break: break-all;
+    border-spacing: 0px;
+}
+
+
+.tabla > td{
+    color: #afb0b3;
+    border: 1px solid #878f96;
+}
+
+.tabla > tbody > tr > td{
+    color: #afb0b3;
+    border: 1px solid #878f96;
+
+}
+
+.tabla-c > th{
+    color: #292826;
+    border: 1px solid #878f96;
+    min-width: 55px;
+    max-width: fit-content;
+}
+
+.fas {
+    width: 33%;
+    color:#878f96;
+    text-align: right;
+    margin: 0px 10px; 
+}
+
+.editar{
+    color: #1229de;
+    word-break: keep-all;
+}
+.ediccion{
+    color: #979a9f;
+    word-break: keep-all;
+}
+
+#invisible{
+    visibility: hidden;
+    margin: 20px auto;
+}
+
+#gs{
+    display: block;
+}
+
+#cancelar{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+#aceptar{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #878f96;
+    border: 1px solid #878f96;
+}
+
+#pcc{
+    font-size: 12px;
+    color: #878f96;
+}
+
+#gus{
+    padding: 5px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: transparent;
+    color: #27a844;
+    border: 2px solid #27a844;
+}
+
+
+#tbl{
+    text-align: center;
+}
+
+#edtxt{
+    word-break: keep-all;
+}
+
+#pasar{
+   color: #1f92e8;
+   margin: 10px auto;
+}
+
+
