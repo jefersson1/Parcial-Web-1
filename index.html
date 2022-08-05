@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/Gustos.js" defer></script>
+    <script src="https://kit.fontawesome.com/c15f94a5fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <div  class="firts-title">
+        <label for="title"><p><b id="web">Web</b>Developer</p></label>
+    </div>
+        <form class="formulario" action="resivido2.html" method="GET" onsubmit="Enviar()" onreset="Cancelar()" id = "form">
+            <div class="login">
+                <div class="lf">
+                    <label for="fullname" id="pcc">formulario de afiliación</label>
+                </div>
+                <div class="login-input">
+                    <input type="text" placeholder="Nombre Completo" name="nombre" id="name">
+                    <span class="fas fa-user"></span></div>
+                <div class="login-input">
+                    <input type="email" placeholder="Email"
+                    required  name="email" id="email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="login-input">
+                    <input  type="text" placeholder="text"
+                    required  name="telefono" id="telefono" >
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="Gustos-div login-input">
+                    <input type="text" id="gustoin" class="cajatextogusto" >
+                    <button id="gus" type="button" onclick="agregarFila()">Gustos</button>
+                </div>
+                <div class="Gustos">
+                    <div class="bandera">
+                        <img src="img/bandera.png" class="imgb">
+                    </div>
+                    <div class="Gustos-items">
+                        <table class="tabla" id="tbl">
+                            <tr class="tabla-c">
+                                <th>Gusto</th>
+                                <th>%</th>
+                                <th id="edtxt">edit</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="invisible">
+                <label for="text" id="pcc">Pulse Aceptar para guardar los cambios o cancelar para anularlos</label>
+                <div class="Enviar-Cancelar">
+                    <button id="aceptar" onclick="enviar_formulario()">Aceptar</button>
+                    <button id="cancelar" onclick="Cancelar()">Cancelar</button>
+                </div>
+                </div>
+                <div id="pasar">Ir al sitio de P web </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
